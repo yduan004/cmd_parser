@@ -2,8 +2,8 @@
 This project allows users to compare dragen command lines, run time, max memory used, max disk space used between any two input trip.runner stages by providing stage id. The stage metadata can be retrived from suites api <https://suites.api.trip.illumina.com/api/v1/stages/10749883/?fields=metadata&format=json>.
 
 # Goal
-1. Add a new panel/component (CMD COMPARISON) to TaaS dashboard <https://trip.illumina.com/dashboard>. UI repo: <https://git.illumina.com/Trippy/trip.services.ui>
-2. The component page will look like
+1. Add a new widget (CMD COMPARISON) to TaaS dashboard <https://trip.illumina.com/dashboard>. UI repo: <https://git.illumina.com/Trippy/trip.services.ui>
+2. The widget page will look like
    
 ![stage_cmd_comparison](https://github.com/yduan004/cmd_parser/assets/22733883/20dad987-33de-4cba-89b4-c10c3ec5da00)
 
