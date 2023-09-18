@@ -3,7 +3,7 @@ This project allows users to compare dragen command lines, run time, max memory 
 
 # Goal
 1. Rewrite the cmp_parser and adding new features by using React.
-2. Host cmp_parser to TaaS 
+2. Host cmp_parser to TaaS <https://trip.illumina.com/dashboard>
 
 ## Recommended IDE Setup
 
