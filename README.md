@@ -1,6 +1,5 @@
-# vue-project
-
-This template should help get you started developing with Vue 3 in Vite.
+# Overview
+This project allows users to compare dragen command lines, run time, max memory used, max disk space used between any two input trip.runner stages by providing staging id. The stage metadata is retrived from suites api <https://suites.api.trip.illumina.com/api/v1/stages/10749883/?fields=metadata&format=json>.
 
 ## Recommended IDE Setup
 
