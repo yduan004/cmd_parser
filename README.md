@@ -1,9 +1,13 @@
 # Overview
-This project allows users to compare dragen command lines, run time, max memory used, max disk space used between any two input trip.runner stages by providing staging id. The stage metadata is retrived from suites api <https://suites.api.trip.illumina.com/api/v1/stages/10749883/?fields=metadata&format=json>.
+This project allows users to compare dragen command lines, run time, max memory used, max disk space used between any two input trip.runner stages by providing stage id. The stage metadata can be retrived from suites api <https://suites.api.trip.illumina.com/api/v1/stages/10749883/?fields=metadata&format=json>.
 
 # Goal
-1. Rewrite the cmp_parser and adding new features by using React.
-2. Host cmp_parser to TaaS <https://trip.illumina.com/dashboard>
+1. Add a new panel/component (CMD COMPARISON) to TaaS dashboard <https://trip.illumina.com/dashboard>
+2. The component page will look like
+   
+![stage_cmd_comparison](https://github.com/yduan004/cmd_parser/assets/22733883/20dad987-33de-4cba-89b4-c10c3ec5da00)
+
+Note: the common args will be marked as green if their values between stage 1 and stage 2 is the same, red if not same, grey if arg is one of `events-log-file`, `output-directory`, `output-file-prefix` since they varies in every stage.
 
 ## Recommended IDE Setup
 
