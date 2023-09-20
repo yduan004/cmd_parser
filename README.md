@@ -5,8 +5,7 @@ This project allows users to compare dragen command lines, run time, max memory 
 1. Add a new widget (CMD COMPARISON) to TaaS dashboard <https://trip.illumina.com/dashboard>. UI repo: <https://git.illumina.com/Trippy/trip.services.ui>
 2. The widget page will look like
    
-![Slide1](https://github.com/yduan004/cmd_parser/assets/22733883/4d926378-1dde-47f6-a584-b6806ea8756f)
-
+![Slide1](https://github.com/yduan004/cmd_parser/assets/22733883/d26a9b9a-e9a3-45d9-a5ca-6cc623917056)
 
 Note: 
 1. The common args will be marked as green if their values between stage 1 and stage 2 are the same, red if not the same, grey if arg is one of `events-log-file`, `output-directory`, `output-file-prefix` since they varies in every stage.
